@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@100 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-logo{
+    max-width: 70px;
+    height: 100%;
+}
+
+nav a{
+    padding: 38px;
+    color: white;
+    text-decoration: none;
+}
+
+.primeira{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.833);
+}
+
+.btn-contato, button{
+    display: flex;
+    flex-direction: column;
+}
