@@ -1,0 +1,96 @@
+body{
+    background-image: linear-gradient(rgb(59, 88, 93),  rgb(29, 40, 42));
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+#img-capa{
+    width: 300px;
+}
+
+.topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#botoes-cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5em 0 1em 0;
+}
+
+#botoes-baixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.bottom-navigate{
+    font-size: 3em;
+}
+
+.bottom-big{
+    font-size: 4em;
+}
+
+#playlist{
+    margin: 1em 0 3.5em 0;
+}
+
+#nome-som{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.cor-leve{
+    color: rgb(139, 153, 156);
+}
+
+#barra-pro{
+    background-color: rgb(139, 153, 156);
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#progresso-barra{
+    --progress: 0%;
+    background-color: white;
+    height: inherit;
+    width: var(--progress);
+    border-radius: inherit;
+}
+
+#progress-container{
+    padding-bottom: 1em;
+}
+
+footer{
+    margin: 20px;
+    padding: 25px;
+    font-style: italic;
+}
+
+.button-active{
+    color: rgb(71, 128, 71);
+}
