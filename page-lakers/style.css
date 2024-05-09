@@ -1,0 +1,151 @@
+/*#4C2673 roxo
+#532A8C roxo mais claro
+#F2AC29 dourado
+#F29A2E laranjado
+#F2F2F2 cinza quase branco*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(#532A8C, #F2AC29 150%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #532A8C;
+}
+
+div#logo{
+    background-color: #F2AC29;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #532A8C;
+}
+
+#btn-login{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #F2AC29;
+    cursor: pointer;
+}
+
+nav > a{
+    padding: 30px;
+    text-decoration: none;
+    background-color: #532A8C;
+    color: #F2AC29;
+}
+
+nav > a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*section e h1*/
+
+main h1{
+    text-align: center;
+    background-color: #F2AC29;
+    margin: 20px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+main h2{
+    background-color: #F2AC29;
+    margin: 20px;
+}
+
+main p{
+    letter-spacing: 1px;
+    text-indent: 30px;
+    padding-bottom: 10px;
+    
+}
+
+.img{
+    padding: 20px;
+}
+
+div#img-champs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-align{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.end-section{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.end-section h3{
+    padding-bottom: 10px;
+}
+
+footer{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    div#logo{
+        display: none;
+    }
+
+    #btn-login{
+        display: none;
+    }
+
+    main{
+        max-width: 500px;
+    }
+}
