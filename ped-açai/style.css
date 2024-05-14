@@ -151,6 +151,14 @@ header > button{
         display: none;
     }
 
+    .btn-abrir-menu{
+        display: none;
+    }
+
+    .text-info{
+        text-align: center;
+    }
+
 
 }
 
@@ -254,6 +262,10 @@ header > button{
 /* responsive desktop*/
 @media (min-width: 1200px){
     .menu-mobile{
+        display: none;
+    }
+
+    .btn-abrir-menu{
         display: none;
     }
 }
