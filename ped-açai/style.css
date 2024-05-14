@@ -126,4 +126,134 @@ header > button{
     min-width: 200px;
 }
 
+/* responsive tablet*/
+@media (max-width: 835px){
 
+   body{
+       background-image: none;
+       background-color: #9A3DD9;
+    } 
+
+    header > nav a{
+        font-size: 22px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-mobile{
+        display: none;
+    }
+
+    #btn-pedido{
+        display: none;
+    }
+
+
+}
+
+/* responsive celular*/
+@media (max-width: 575px){
+    nav{
+        display: none;
+    }
+
+    body{
+        background-color: #9A3DD9;
+    }
+
+    .container{
+       width: 100%;
+    }
+
+    .text-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+
+    .text-info h1{
+        font-size: 3.3rem;
+    }
+
+    .text-info h2{
+        font-size: 2rem;
+    }
+
+    .text-info p{
+        font-size: 1rem;
+    }
+
+    #img-ped{
+        width: 300px;
+        height: 300px;
+    }
+
+    .menu-mobile{
+        background-color: #9C4BBF;
+        display: flex;
+        flex-direction: column;
+        width: 0%;
+        height: 100vh;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 9999;
+        transition: .5s;
+    }
+
+    .menu-mobile a{
+        text-decoration: none;
+        font-size: 35px;
+        padding: 20px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .menu-mobile a:hover{
+        background-color: #F2CC05;
+    }
+
+    #menu-fechar{
+        padding: 20px;
+    }
+
+    #menu-fechar:hover{
+        background-color: #F2CC05;
+    } 
+    
+    .btn-abrir-menu #btn-list{
+        padding-left: 100px;
+    }
+
+    .menu-mobile.abrir-menu{
+        width: 70%;
+    }
+
+    .menu-mobile.abrir-menu ~ .overlay-menu{
+        display: block;
+    }
+
+    .overlay-menu{
+        background-color: #9c4bbf82;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: fixed;
+        z-index: 8888;
+        display: none;
+    }
+    
+}
+
+/* responsive desktop*/
+@media (min-width: 1200px){
+    .menu-mobile{
+        display: none;
+    }
+}
