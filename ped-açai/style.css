@@ -257,6 +257,9 @@ header > button{
         display: none;
     }
     
+    .btn-abrir-menu{
+        display: block;
+    }
 }
 
 /* responsive desktop*/
