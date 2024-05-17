@@ -176,7 +176,7 @@ span{
 
 }
 
-@media (min-width: 780px){
+@media (min-width: 768px){
     .h1-text{
         display: none;
     }
