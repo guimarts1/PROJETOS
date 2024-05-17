@@ -3,6 +3,7 @@ function verify() {
     var ano = data.getFullYear()
     var formAno = document.getElementById('txtano')
     var res = document.getElementById('res')
+    
     if (formAno.value.length == 0 || formAno.value > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     } else{
