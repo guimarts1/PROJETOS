@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #E6EAFA;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+header a{
+    color: rgb(227, 86, 208);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+
+#btn-contato{
+    background-color: rgb(227, 86, 208);
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #E6EAFA;
+    transition: all 0.5s;
+}
+
+#btn-contato:hover{
+    transform: scale(1.2)
+}
+
+span{
+    color: rgb(227, 86, 208)
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+section h1{
+    color: rgb(227, 86, 208);
+    font-size: 40px;
+    margin: 10px;
+}
+
+section p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#btn-contact{
+    background-color: rgb(227, 86, 208);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #E6EAFA;
+    width: 100px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+#btn-contact:hover{
+    transform: scale(1.2);
+}
+
+#img-benny{
+    width: 450px;
+}
+
+@media (max-width: 868px){
+    section p{
+        width: 500px;
+    }
+
+    section{
+        margin-top: 20px;
+    }
+
+    #btn-contact{
+        width: 200px;
+        padding: 15px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    #btn-contato{
+        padding: 15px;
+        font-size: 20px;
+    }
+}
